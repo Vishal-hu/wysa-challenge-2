@@ -1,7 +1,7 @@
 # wysa-challenge-2
 ## BST validator
 
-const isValidBST = (root) => {
+``` const isValidBST = (root) => {
     let output = true;
     const loop = (tree, min, max) => {
         if ((tree?.val > min || min === undefined) && (tree?.val < max || max === undefined)) {
@@ -17,4 +17,4 @@ const isValidBST = (root) => {
     }
     loop(root);
     return output;
-};
+}; ```
